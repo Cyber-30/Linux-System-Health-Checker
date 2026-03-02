@@ -139,7 +139,7 @@ print_final_score() {
 
     echo "-----------------------------------------"
     printf "FINAL SECURITY SCORE: %d / %d (%d%%)\n" "$TOTAL_SCORE" "$TOTAL_MAX" "$PERCENTAGE"
-    echo "RISK LEVEL          : %s\n" "$RISK_LEVEL"
+    printf "RISK LEVEL          : %s\n" "$RISK_LEVEL"
     echo "========================================="
 
     echo
